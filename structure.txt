@@ -1,0 +1,23 @@
+LibraryManagementSystem/
+├── src/
+│   ├── com/
+│   │   └── library/
+│   │       ├── Main.java
+│   │       ├── database/
+│   │       │   └── DatabaseConnection.java
+│   │       ├── models/
+│   │       │   ├── Book.java
+│   │       │   └── Student.java
+│   │       ├── services/
+│   │       │   ├── BookService.java
+│   │       │   └── StudentService.java
+│   │       └── ui/
+│   │           ├── MainMenu.java
+│   │           ├── StudentMenu.java
+│   │           └── BookMenu.java
+│   └── resources/
+│       └── library.sql
+├── lib/
+│   └── mysql-connector-java-8.0.25.jar
+├── pom.xml
+└── README.md
